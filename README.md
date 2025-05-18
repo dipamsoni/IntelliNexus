@@ -4,6 +4,10 @@
 
 This project implements an LLM-driven autonomous agent based on the ReAct (Reasoning and Acting) framework. The agent processes user instructions, dynamically plans and executes sub-tasks using available tools, and returns a final answer. It leverages locally hosted LLMs via Ollama, ensuring data privacy and customizability.
 
+## Project Flow Diagram
+
+![Project Flow Diagram](flow_diagram.png)
+
 **Key Features:**
 
 *   **ReAct Framework:** The agent uses a "Thought-Action-Observation" loop to reason and interact with tools.
